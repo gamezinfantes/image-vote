@@ -1,0 +1,19 @@
+.comment {
+  padding: 1em;
+  height: 200px;
+  width: 100%;
+}
+
+.photoUpload {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding-top: 1em;
+
+  &__image, &__coment {
+    display: flex;
+    flex: 1;
+    padding: 0.5em;
+  }
+
+}

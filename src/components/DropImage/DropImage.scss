@@ -1,0 +1,43 @@
+.holder{
+  align-items: center;
+  background: #efefef;
+  box-sizing: border-box;
+  border: 1px  #ddd solid;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1em;
+  height: 200px;
+  justify-content: center;
+  flex: 1;
+
+  &__active {
+    background: none;
+    border: 4px dashed #ddd;
+  }
+}
+
+
+.icon {
+  border-radius: 50%;
+  border: 1px solid #111;
+  height: 100px;
+  width: 100px;
+}
+
+.text {
+  font-size: 1.5em;
+}
+
+.preview {
+  text-align: center;
+  width: 100%;
+
+  &__holder {
+    width: 100%;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
